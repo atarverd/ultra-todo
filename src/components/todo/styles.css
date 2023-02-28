@@ -1,0 +1,69 @@
+table{
+    border-collapse: collapse;
+    width:100%;
+    font-size:20px;
+    font-weight:200;
+
+}
+.table-header{
+    background-color: #0085FF ;
+    border-radius: 10px;
+}
+tr{
+    line-height: 3;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+th{
+    font-weight: 300;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #F3FBFF;
+  }
+tr:hover{
+    filter: brightness(90%);
+}
+.todo-status-wraper{
+
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status{
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+.done{
+    background-color: #03BC90;
+}
+.pending{
+    background-color: #FC9700;
+}
+.done-btn{
+    height: 45px;
+    width: 150px;
+    background-color: #0085FF;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.disabled-btn{
+    background-color: #C7C7C7;
+}
+.todo-title{
+    overflow-wrap: break-word;
+}
+.todo-info{
+    max-width: 250px;
+}
